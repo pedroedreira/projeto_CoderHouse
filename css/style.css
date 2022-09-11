@@ -119,6 +119,12 @@
     justify-content: stretch;
     align-content: stretch;
     border: 2px solid #D9D9D9;
+    transition: height 1s, width 1s;
+  }
+
+  .img-home1:hover{
+    height: 190px;
+    width: 300px;
   }
 
   .images-container .img-home2{
@@ -128,6 +134,12 @@
     justify-content: stretch;
     align-content: stretch;
     border: 2px solid #D9D9D9;
+    transition: height 1s, width 1s;
+  }
+
+  .img-home2:hover{
+    height: 190px;
+    width: 300px;
   }
 
   .images-container .img-home3{
@@ -137,6 +149,12 @@
     justify-content: stretch;
     align-content: stretch;
     border: 2px solid #D9D9D9;
+    transition: height 1s, width 1s;
+  }
+
+  .img-home3:hover{
+    height: 190px;
+    width: 300px;
   }
 
   .images-container .img-home4{
@@ -146,6 +164,12 @@
     justify-content: stretch;
     align-content: stretch;
     border: 2px solid #D9D9D9;
+    transition: height 1s, width 1s;
+  }
+
+  .img-home4:hover{
+    height: 190px;
+    width: 300px;
   }
 
   .images-container p {
