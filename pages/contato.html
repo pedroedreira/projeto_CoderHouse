@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<!-- Idioma do Html -->
+<html lang="pt-br">
+  <head>
+    <!-- Campo de metadados -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link dos CSS -->
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <!-- Título da aba -->
+    <title>Assistência do Zé</title>
+  </head>
+
+  <!-- Corpo do html -->
+  <body>
+    <header class="barra_menu">
+      <!-- Conteúdo da barra de Menu -->
+      <a href="../index.html"><img class="logo" src="../image/logo.jpg" alt="logo"></a>
+      <ul class="navbar">
+        <li><a class="menu_items" href="../index.html">Home </a></li>
+        <li>
+          <a class="menu_items" href="../pages/servicos.html">Serviços </a>
+        </li>
+        <li>
+          <a class="menu_items" href="../pages/agenda.html">Agendamento </a>
+        </li>
+        <li><a class="menu_items" href="../pages/sobre.html">Sobre </a></li>
+        <li>
+          <a class="menu_items" href="../pages/contato.html">Contato </a>
+        </li>
+      </ul>
+    </header>
+
+    <main>
+      <!-- Conteúdo Principal -->
+      <div class="container">
+        <div class="container_forms">
+          <h2 class="tit_contato">Contate-nos</h2>
+            <form>
+              <label for="nome_usuario">Nome:</label>
+              <input
+                id="first_name"
+                type="text"
+                placeholder="digite seu nome"
+                name="first_name"
+              />
+
+              <label for="sobrenome_usuario">Sobrenome:</label>
+              <input
+                id="last_name"
+                type="text"
+                placeholder="digite seu sobrenome"
+                name="last_name"
+              />
+
+              <label for="email_usuario">Email:</label>
+              <input
+                id="email"
+                type="email"
+                placeholder="digite seu email"
+                name="email"
+              />
+
+              <label for="descricao">Descrição:</label>
+              <input
+                id="description"
+                class="description"
+                type="text"
+                placeholder="como podemos ajudar?"
+                name="descricao"
+              />
+              <div class="flex_botoes">
+                <input
+                  id="button_reset"
+                  class="button"
+                  type="reset"
+                  value="Limpar Formulário"
+                />
+                <input
+                  id="button_submit"
+                  class="button"
+                  type="submit"
+                  value="Enviar Formulário"
+                />
+            </form>
+          </div>
+        </div>
+
+        <div class="container_contato">
+          <p>(11) 9 0000-0000</p>
+          <p>email@assistenciadoze.com.br</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <!-- Conteúdo do rodapé -->
+      <div class="direitos"> 
+        <p>todos os direitos reservados</p>
+      </div>
+      <div class="meio_contato">
+        <p>Fale Conosco</p>
+        <p>(11) 0000-0000</p>
+        <p>email@email.com.br</p>
+      </div>
+    </footer>
+  </body>
+</html>
