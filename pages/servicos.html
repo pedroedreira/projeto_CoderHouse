@@ -6,12 +6,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Link dos CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/servicos.css">
     <link rel="stylesheet" href="../css/footer.css">
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <!-- Título da aba -->
     <title>Assistência do Zé</title>
   </head>
@@ -21,24 +19,35 @@
     <header class="barra_menu">
       <!-- Conteúdo da barra de Menu -->
       <a href="../index.html"><img class="logo" src="../image/logo.jpg" alt="logo"></a>
-      <ul class="navbar">
-        <li><a class="menu_items" href="../index.html">Home </a></li>
-        <li>
-          <a class="menu_items" href="../pages/servicos.html">Serviços </a>
-        </li>
-        <li>
-          <a class="menu_items" href="../pages/agenda.html">Agendamento </a>
-        </li>
-        <li><a class="menu_items" href="../pages/sobre.html">Sobre </a></li>
-        <li>
-          <a class="menu_items" href="../pages/contato.html">Contato </a>
-        </li>
-      </ul>
+      <nav class="navbar navbar-expand-lg bg-light navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="./servicos.html">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./agenda.html">Agendamento</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./sobre.html">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contato.html">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <main>
       <!-- Conteúdo Principal -->
-      <div class="container_titulos">
+      <div class="container_titles">
         <h2>Serviços:</h2>
       </div>
       <div class="container_servicos">
@@ -98,7 +107,7 @@
         </div>
         <div class="images">
           <div class="img_box">
-            <img src="https://cdn.discordapp.com/attachments/1010611651352989819/1010621998814203904/image2.jpg" alt="">
+            <img src="https://cdn.discordapp.com/attachments/1010611651352989819/1010621998814203904/image2.jpg" class="img-circle" alt="">
             <p>Upgrade</p>
           </div>
           <div class="img_box">
