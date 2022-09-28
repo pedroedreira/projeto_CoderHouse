@@ -1,129 +1,121 @@
-.barra_menu {
-  width: 100%;
-  padding: 0 65px;
-  height: 120px;
-  color: white;
-  background-color: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  border-bottom: 2px solid gray;
-}
+@media screen and (min-width:769px){
+  .barra_menu {
+    width: 100%;
+    padding: 0 65px;
+    height: 100%;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gray;
+  }
 
-.navbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  color: white;
-  font-size: 20px;
-}
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+  }
 
-.menu_items {
-  text-decoration: none;
-  color: white;
-  padding: 0 10px;
-}
+  header a {
+    text-decoration: none;
+    color: white;
+  }
 
-.barra_menu h1 {
-  font-size: 40px;
-}
+  .logo{
+    height: 80px;
+    width: 140px;
+    margin-top: 5px;
+  }
 
-header a {
-  text-decoration: none;
-  color: white;
-}
+  .forms {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 
-.logo{
-  height: 80px;
-  width: 140px;
-  margin-top: 5px;
-}
+  .tit_contato {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+  }
 
-.forms {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+  label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+    margin-top: 35px;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
 
-.tit_contato {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  font-size: 30px;
-  font-weight: bold;
-}
+  input {
+    border-radius: 10px;
+    margin: 0px 10px;
+  }
 
-label {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin-left: 15px;
-  margin-top: 35px;
-  margin-bottom: 5px;
-  font-weight: bold;
-}
+  .description {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 40px;
+  }
 
-input {
-  border-radius: 10px;
-  margin: 0px 10px;
-}
+  #first_name,
+  #last_name,
+  #email {
+    width: 100%;
+    height: 40px;
+  }
 
-.description {
-  width: 100%;
-  height: 80px;
-  margin-bottom: 40px;
-}
+  .button {
+    width: 175px;
+    height: 60px;
+  }
 
-#first_name,
-#last_name,
-#email {
-  width: 100%;
-  height: 40px;
-}
+  .flex_botoes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
 
-.button {
-  width: 175px;
-  height: 60px;
-}
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+  }
 
-.flex_botoes {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  .container_forms {
+    width: 100%;
+    height: 100%;
+    margin: 50px 25px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
-
-.container {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-}
-
-.container_forms {
-  width: 100%;
-  height: 100%;
-  margin: 50px 25px 50px 50px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
+/**********Mobile*************/
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .barra_menu {
     width: 100%;
     padding: 0 5%;
-    height: 120px;
+    height: 100%;
     color: white;
     background-color: black;
     display: flex;
@@ -159,6 +151,15 @@ input {
     margin-top: 5px;
   }
   
+  .forms {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
   .tit_contato {
     width: 100%;
     height: 100%;
@@ -229,11 +230,13 @@ input {
   }
 }
 
+/**********Tablet************/
+
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .barra_menu {
     width: 100%;
     padding: 0 65px;
-    height: 120px;
+    height: 100%;
     color: white;
     background-color: black;
     display: flex;
@@ -250,16 +253,6 @@ input {
     align-items: center;
     color: white;
     font-size: 20px;
-  }
-  
-  .menu_items {
-    text-decoration: none;
-    color: white;
-    padding: 0 10px;
-  }
-  
-  .barra_menu h1 {
-    font-size: 40px;
   }
   
   header a {

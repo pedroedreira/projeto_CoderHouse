@@ -18,7 +18,6 @@
 
   <!-- Corpo do html -->
   <body>
-    <div id="div-pai">
       <header class="barra_menu">
         <!-- Conteúdo da barra de Menu -->
         <a href="index.html"><img class="logo" src="./image/logo.jpg" alt="logo"></a>
@@ -51,87 +50,71 @@
 
       <main>
         <!-- Conteúdo Principal -->
-        <img class="banner"
-          src="https://yata.s3-object.locaweb.com.br/43bfd9605b4ef5303336fd1770c14ee90dad054824d9279e9b8ccd55cb740efe"
-        />
-        <div class="container_tabela">
-          <div>
-           <table>
-            <tr>
-             <th>Produto</th>
-              <th>Marca</th>
-              <th>Serviços</th>
-           </tr>
-           <tr>
-             <td>Notebook e Desktop</td>
-              <td>
-                <ul>
-                 <li>Dell</li>
-                 <li>Microsoft</li>
-                 <li>Apple</li>
-                 <li>Samsung</li>
-               </ul>
-             </td>
-              <td>
-                <ol>
-                 <li>Limpeza</li>
-                  <li>Manutenção de hardware</li>
-                  <li>Upgrade</li>
-                  <li>Formatação</li>
-                </ol>
-             </td>
-            </tr>
-           <tr>
-              <td>Celulares</td>
-              <td>
-               <ul>
-                 <li>Samsung</li>
-                 <li>Motorola</li>
-                  <li>Xiaomi</li>
-                  <li>Apple</li>
-               </ul>
-              </td>
-              <td>
-               <ol>
-                 <li>Limpeza</li>
-                  <li>Manutenção de hardware</li>
-                 <li>Substituição da tela</li>
-                 <li>Substituição da bateria</li>
-               </ol>
-             </td>
-           </tr>
-         </table>
-       </div>
-         <div class="horario">
-           <p>Horario de Funcionamento</p>
-            <br>
-            <p>segunda sexta: das 9h ás 18h</p>
-           <br>
-           <p>sabado: das 9h ás 13h</p>
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
           </div>
-       </div>
-       <div class='about-us'>
-        <p>Um pouco sobre nossos serviços...</p>
-       </div>
-        <div class="images-container">
-          <div>
-          <img class="img-home1" src="./image/formatação.png" alt="">
-          <p>Formatação</p>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://yata.s3-object.locaweb.com.br/43bfd9605b4ef5303336fd1770c14ee90dad054824d9279e9b8ccd55cb740efe" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://milksystems.com.br/wp-content/uploads/2020/11/hora-de-formatar-o-computador.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./image/limpeza.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./image/troca de tela.jpg" class="d-block w-100" alt="...">
+            </div>
           </div>
-          <div>
-          <img class="img-home2" src="./image/limpeza.jpg" alt="">
-          <p>Limpeza</p>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="container-card">
+          <div class="card" style="width: 10rem;">
+            <img src="https://cdn.icon-icons.com/icons2/2070/PNG/512/cell_phone_icon_126579.png" class="card-img-top" alt="Imagem-celular">
+            <div class="card-body">
+              <h5 class="card-title">Celulares</h5>
+              <p class="card-text">Trabalhamos com variadas marcas e modelos para atender você.</p>
+              <a href="./pages/servicos.html" class="btn btn-primary">Saiba mais</a>
+            </div>
           </div>
-          <div>
-          <img class="img-home3" src="./image/troca de tela.jpg" alt="">
-          <p>Troca de tela</p>
+          <div class="card" style="width: 10rem;">
+            <img src="https://cdn-icons-png.flaticon.com/512/1084/1084755.png" class="card-img-top" alt="Imagem-notebook">
+            <div class="card-body">
+              <h5 class="card-title">Notebook's</h5>
+              <p class="card-text">Oferecemos diversos serviços para o seu equipamento.</p>
+              <a href="./pages/servicos.html" class="btn btn-primary">Saiba mais</a>
+            </div>
           </div>
-          <div>
-          <img class="img-home4" src="./image/Upgrade.jpg" alt="">
-          <p>Upgrade</p>
+          <div class="card" style="width: 10rem;">
+            <img src="https://cdn-icons-png.flaticon.com/512/3234/3234867.png" class="card-img-top" alt="Imagem-desktop">
+            <div class="card-body">
+              <h5 class="card-title">Computadores</h5>
+              <p class="card-text">Possuímos diversas opções de upgrade para sua máquina.</p>
+              <a href="./pages/servicos.html" class="btn btn-primary">Saiba mais</a>
+            </div>
+          </div>
+          <div class="card" style="width: 10rem;">
+            <img src="https://cdn-icons-png.flaticon.com/512/13/13936.png" class="card-img-top" alt="Imagem-contato">
+            <div class="card-body">
+              <h5 class="card-title">Contato</h5>
+              <p class="card-text">Temos flexibilidade de horários, consulte-nos.</p>
+              <a href="./pages/contato.html" class="btn btn-primary">Saiba mais</a>
+            </div>
           </div>
         </div>
-     </main>
+      </main>
 
      <footer>
        <!-- Conteúdo do rodapé -->
