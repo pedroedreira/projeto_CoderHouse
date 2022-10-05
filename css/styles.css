@@ -412,14 +412,16 @@ footer {
     display: grid;
     grid-template-areas: "card1 card2 card3 card4";
     column-gap: 4%; }
-  container-card--card {
+  .container-card .card {
     background-color: lightgray;
     font-family: 'Times New Roman', Times, serif;
     border: 2px solid gray; }
-  container-card--card--h5 {
+  .container-card .card h5 {
     font-size: 20px; }
-  container-card--card--card-text {
+  .container-card .card .card-text {
     font-size: 17px; }
+  .card-img {
+    padding: 5%;}
   .card-body {
     display: flex;
     flex-direction: column;
@@ -479,18 +481,22 @@ footer {
     border-top: 2px solid gray; }
   .container-card {
     display: grid;
-    grid-template-areas: "card1"  "card2" "card3"  "card4";
+    grid-template-areas: "card1" 
+ "card2"
+ "card3" 
+ "card4";
     column-gap: 80px;
     row-gap: 25px; }
-  container-card--card {
-    background-color: lightgray;
-    font-family: 'Times New Roman', Times, serif;
-    height: 100%;
-    border: 2px solid gray; }
-  container-card--card--h5 {
-    font-size: 20px; }
-  container-card--card--card-text {
-    font-size: 17px; }
+    .container-card .card {
+      background-color: lightgray;
+      font-family: 'Times New Roman', Times, serif;
+      border: 2px solid gray; }
+    .container-card .card h5 {
+      font-size: 20px; }
+    .container-card .card .card-text {
+      font-size: 17px; }
+    .card-img {
+      padding: 5%;}
   .card-body {
     display: flex;
     flex-direction: column;
@@ -550,19 +556,20 @@ footer {
     border-top: 2px solid gray; }
   .container-card {
     display: grid;
-    grid-template-areas: "card1 card2" "card3 card4";
+    grid-template-areas: "card1 card2"
+ "card3 card4";
     column-gap: 2%;
     row-gap: 2%; }
-  container-card--card {
-    background-color: lightgray;
-    font-family: 'Times New Roman', Times, serif;
-    width: 100%;
-    height: 100%;
-    border: 2px solid gray; }
-  container-card--card--h5 {
-    font-size: 20px; }
-  container-card--card--card-text {
-    font-size: 17px; }
+  .container-card .card {
+      background-color: lightgray;
+      font-family: 'Times New Roman', Times, serif;
+      border: 2px solid gray; }
+  .container-card .card h5 {
+      font-size: 20px; }
+  .container-card .card .card-text {
+      font-size: 17px; }
+  .card-img {
+      padding: 5%;}
   .card-body {
     display: flex;
     flex-direction: column;
